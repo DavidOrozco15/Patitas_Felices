@@ -53,4 +53,55 @@
         margin-top: 10px;
         width: auto;
     }
+
+    /* SECCION 2 - DÍAS LLENOS DE PATITAS */
+    .seccion-dias {
+        padding: 15px 0;
+    }
+
+    .seccion-dias-container {
+        grid-template-columns: 1fr;
+        /* Cambia a UNA columna */
+        padding: 0 15px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    /* COLUMNA 1 - TEXTO */
+    .dias-texto {
+        padding: 35px 15px;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .dias-texto h2 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .dias-texto p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    /* COLUMNA 2 - CARRUSEL */
+    .contenedor-carrusel {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .columna-1,
+    .columna-2 {
+        width: 48%;
+        height: 280px;
+    }
+
+    .carrusel {
+        gap: 6px;
+    }
+
+    .carrusel img {
+        height: 110px;
+    }
+
 }

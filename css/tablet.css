@@ -2,7 +2,7 @@
    RESPONSIVE – TABLET
    768px a 1199px
 =========================== */
-@media (max-width: 1199px) {
+@media (max-width: 1024px) {
 
     /* HERO */
     .hero {
@@ -52,4 +52,52 @@
         height: auto;
         margin-top: 10px;
     }
+
+    /* SECCION 2 - DÍAS LLENOS DE PATITAS */
+    .seccion-dias {
+        padding: 15px 0;
+    }
+
+    .seccion-dias-container {
+        max-width: 900px;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    /* COLUMNA 1 - TEXTO */
+    .dias-texto {
+        padding: 40px 20px;
+        max-width: 280px;
+    }
+
+    .dias-texto h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .dias-texto p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* COLUMNA 2 - CARRUSEL */
+    .contenedor-carrusel {
+        gap: 12px;
+    }
+
+    .columna-1,
+    .columna-2 {
+        width: 48%;
+        height: 380px;
+    }
+
+    .carrusel {
+        gap: 8px;
+    }
+
+    .carrusel img {
+        height: 150px;
+    }
+
 }
+
