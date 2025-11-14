@@ -1,0 +1,55 @@
+/* ===========================
+   RESPONSIVE – TABLET
+   768px a 1199px
+=========================== */
+@media (max-width: 1199px) {
+
+    /* HERO */
+    .hero {
+        padding: 40px 0;
+        height: auto;
+        /* Se adapta al contenido */
+    }
+
+    .hero-container {
+        max-width: 900px;
+        /* Reduce el ancho */
+        height: auto;
+        /* Evita desbordes */
+        padding: 0 20px;
+        gap: 20px;
+        /* Menos espacio entre columnas */
+    }
+
+    /* COLUMNA IZQUIERDA */
+    .hero-ellipse {
+        width: 330px;
+        height: 330px;
+    }
+
+    .hero-ellipse img {
+        width: 80%;
+    }
+
+    /* COLUMNA DERECHA */
+    .hero-right {
+        margin-top: 0;
+        /* Esto evita que se salga */
+        gap: 12px;
+    }
+
+    .hero-logo {
+        width: 260px;
+    }
+
+    .hero-slogan {
+        font-size: 26px;
+    }
+
+    .hero-btn {
+        font-size: 16px;
+        padding: 10px 22px;
+        height: auto;
+        margin-top: 10px;
+    }
+}

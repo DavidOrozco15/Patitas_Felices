@@ -1,0 +1,56 @@
+/* ===========================
+   RESPONSIVE – MOBILE
+   0px a 767px
+=========================== */
+@media (max-width: 767px) {
+
+    /* HERO */
+    .hero {
+        padding: 30px 0;
+        height: auto;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        /* Cambia a UNA columna */
+        text-align: center;
+        padding: 0 15px;
+        gap: 30px;
+        height: auto;
+    }
+
+    /* COLUMNA IZQUIERDA */
+    .hero-ellipse {
+        width: 260px;
+        height: 260px;
+        margin: 0 auto;
+    }
+
+    .hero-ellipse img {
+        width: 85%;
+    }
+
+    /* COLUMNA DERECHA */
+    .hero-right {
+        margin-top: 0;
+        /* No empujamos nada */
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero-logo {
+        width: 220px;
+    }
+
+    .hero-slogan {
+        font-size: 22px;
+        padding: 0 10px;
+    }
+
+    .hero-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 10px;
+        width: auto;
+    }
+}
