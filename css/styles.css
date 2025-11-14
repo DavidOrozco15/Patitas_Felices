@@ -215,3 +215,118 @@ h6 {
         transform: translateY(0);
     }
 }
+
+/* ====== SECCION 3 - SOMOS ====== */
+.seccion-somos {
+    width: 100%;
+    height: auto;
+    background: #D5B893;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-somos-container {
+    max-width: 1200px;
+    width: 100%;
+    min-width: 320px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/* ====== TEXTO PRINCIPAL ====== */
+.somos-texto {
+    text-align: center;
+    max-width: 800px;
+}
+
+.somos-texto p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #4A2C1D;
+    margin: 0 0 15px 0;
+}
+
+.somos-texto p:first-child {
+    font-weight: 500;
+}
+
+.somos-autor {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* ====== ANIMALES DESTACADOS ====== */
+.animales-destacados {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.animal-card {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.animal-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.animal-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ====== BOTONES DE ACCION ====== */
+.acciones-botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.boton-accion {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: auto;
+    box-shadow: none;
+}
+
+.boton-accion:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.boton-accion img {
+    width: 250px;
+    height: auto;
+    display: block;
+}
