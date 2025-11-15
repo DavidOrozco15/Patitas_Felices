@@ -99,5 +99,67 @@
         height: 150px;
     }
 
+    /* SECCION 3 - SOMOS */
+    .seccion-somos {
+        padding: 20px 0;
+    }
+
+    .seccion-somos-container {
+        padding: 0 20px;
+        gap: 30px;
+    }
+
+    .somos-texto p {
+        font-size: 22px;
+    }
+
+    .animales-destacados {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 15px;
+    }
+
+    .animal-card {
+        width: 60px;
+        height: 60px;
+    }
+
+    .acciones-botones {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        max-width: 500px;
+    }
+
+    .boton-accion img {
+        width: 180px;
+    }
+
+    /* SECCION 4 - MISIÓN-VISIÓN */
+    .seccion-mision-vision {
+        padding: 80px 0;
+    }
+
+    .seccion-mision-vision-container {
+        max-width: 1100px;
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+.mision-texto, .vision-texto {
+    padding: 30px 15px;
+    max-width: 350px;
+    justify-self: center;
+}
+
+.mision-texto h2, .vision-texto h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.mision-texto p, .vision-texto p {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
 }
 

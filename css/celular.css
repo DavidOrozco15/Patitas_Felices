@@ -21,13 +21,13 @@
 
     /* COLUMNA IZQUIERDA */
     .hero-ellipse {
-        width: 260px;
-        height: 260px;
+        width: 230px;
+        height: 230px;
         margin: 0 auto;
     }
 
     .hero-ellipse img {
-        width: 85%;
+        width: 65%;
     }
 
     /* COLUMNA DERECHA */
@@ -103,5 +103,68 @@
     .carrusel img {
         height: 110px;
     }
+
+    /* SECCION 3 - SOMOS */
+    .seccion-somos {
+        padding: 15px 0;
+    }
+
+    .seccion-somos-container {
+        padding: 0 15px;
+        gap: 20px;
+    }
+
+    .somos-texto p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .animales-destacados {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+
+    .animal-card {
+        width: 50px;
+        height: 50px;
+    }
+
+    .acciones-botones {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        max-width: 400px;
+    }
+
+    .boton-accion img {
+        width: 120px;
+    }
+
+    /* SECCION 4 - MISIÓN-VISIÓN */
+    .seccion-mision-vision {
+        padding: 60px 0;
+    }
+
+    .seccion-mision-vision-container {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+        gap: 20px;
+    }
+
+.mision-texto, .vision-texto {
+    padding: 25px 10px;
+    max-width: 85%;
+    justify-self: center;
+}
+
+.mision-texto h2, .vision-texto h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mision-texto p, .vision-texto p {
+    font-size: 12px;
+    line-height: 1.3;
+}
 
 }
